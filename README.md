@@ -115,8 +115,8 @@ for (const digit of phoneNumber) {
     Clone the repository:
 
 ```
-git clone https://github.com/your-repo/phone-number-combinations.git
-cd phone-number-combinations
+git clone https://github.com/AliML111/mafioso-backend.git
+cd mafioso-backend
 ```
 
 Copy environment file:
@@ -140,7 +140,7 @@ docker ps
 Check health status:
 
 ```
-    docker inspect --format='{{json .State.Health}}' my-container-name
+docker inspect --format='{{json .State.Health}}' node
 ```
 
 5️⃣ Testing the API
