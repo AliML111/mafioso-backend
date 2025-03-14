@@ -175,7 +175,7 @@ This app includes a Docker health check to ensure the service is running:
 
 ```
 healthcheck:
-  test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/health"]
+  test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/healthz"]
   interval: 30s
   timeout: 5s
   retries: 3
