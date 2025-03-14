@@ -18,4 +18,6 @@ COPY --chown=node:node ./src/ ./
 
 EXPOSE ${APP_PORT}
 
+USER node
+
 CMD ["npm", "run", "dev"]
