@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "d3be0750-47c3-48a1-b158-4d38c0a15881",
+		"name": "Mafioso",
+		"description": "This is a simple program to return all possible combinations of letters for a given phone number.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28969513"
+	},
+	"item": [
+		{
+			"name": "Get combinations of given number",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phoneNumber\": \"23\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/combinations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"combinations"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
